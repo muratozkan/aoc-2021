@@ -1,7 +1,7 @@
 import java.nio.file.Files
 import kotlin.streams.toList
 
-fun main(args: Array<String>) {
+fun main() {
     val inFile = Utils.inPath("day2.txt")
 
     val input = Files.lines(inFile)
